@@ -1,0 +1,60 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo {
+    background: url(../img/UCL_logo.png) no-repeat 80% 80%;
+    background-size: contain;
+    width: 55px;
+    height: 55px;
+    float: left;
+    padding-left: 20px;
+}
+
+nav {
+    position: fixed;
+    height: 80px;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: #8f8f8fe6;
+    width: 100%;
+}
+
+.menu {
+    position: absolute;
+    right: 50px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-family: arial;
+    padding: 0px 10px;
+}
+
+.menu a:hover {
+    color: #4256ca;
+}
+header {
+    width: 100%;
+    height: 700px;
+    background-image: url('../img/Fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+}
+
+.mukta-light {
+    font-family: "Mukta", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+p {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
